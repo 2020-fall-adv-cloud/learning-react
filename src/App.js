@@ -6,14 +6,6 @@ import Greeting from './Greeting';
 function App() {
   return (
       <>
-      <h1>
-        Hello ReactJS ! ! !
-      </h1>
-      <Greeting />
-      <Greeting />
-      <Greeting />
-      <Greeting />
-      <Greeting />
       <Greeting />
       <p>
         Wow, JSX is neat ! ! !
