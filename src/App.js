@@ -6,11 +6,11 @@ import Greeting from './Greeting';
 const App = () => {
   return (
       <>
-      <Greeting name='Mike' />
-      <Greeting name='Mitchell' />
-      <Greeting name='Maggie' />
-      <Greeting name='Albert' />
-      <Greeting name='Tom' />
+      <Greeting name='Mike' favoriteNumber='12' />
+      <Greeting name='Mitchell' favoriteNumber='7' />
+      <Greeting name='Maggie' favoriteNumber='9' />
+      <Greeting name='Albert' favoriteNumber='22' />
+      <Greeting name='Tom' favoriteNumber='3' />
       <p>
         Wow, JSX is neat ! ! !
       </p>
