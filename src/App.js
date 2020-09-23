@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Greeting from './Greeting';
+import StudentList from './StudentList';
 
 const App = () => {
 
@@ -20,6 +21,8 @@ const App = () => {
       <p>
         Wow, JSX is neat ! ! !
       </p>
+
+      <StudentList />
       </>
   );
 }
