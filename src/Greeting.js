@@ -13,6 +13,9 @@ const Greeting = ({name, favoriteNumber}) => {
         <p>
             { name }'s favorite number is { favoriteNumber }
         </p>
+        <p>
+            { name }'s favorite number plus ten is { favoriteNumber + 10 }
+        </p>
         </>
     );
 }
