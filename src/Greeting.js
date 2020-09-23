@@ -1,14 +1,17 @@
 import React from 'react';
 
 // Functional React component... Guess what, it is a function ! ! !
-const Greeting = (props) => {
+const Greeting = ({name, favoriteNumber}) => {
+
+    //console.log(props);
+
     return (
         <>
         <h1>
-            Hello { props.name } ! ! !
+            Hello { name } ! ! !
         </h1>
         <p>
-            { props.name }'s favorite number is { props.favoriteNumber }
+            { name }'s favorite number is { favoriteNumber }
         </p>
         </>
     );
