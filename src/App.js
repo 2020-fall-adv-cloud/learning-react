@@ -11,6 +11,25 @@ const App = () => {
     , 'Gray'
   ];
 
+  const students = [
+    {
+      name: 'Mike'
+      , shoeSize: 9.5
+    }
+    , {
+      name: 'Albert'
+      , shoeSize: 10
+    }
+    , {
+      name: 'Maggie'
+      , shoeSize: 8.5
+    }
+    , {
+      name: 'Mitchell'
+      , shoeSize: 9
+    }
+  ];
+
   return (
       <>
       <Greeting name='Mike' favoriteNumber={ 12 } twoFavoriteColors={ ['Blue', 'Green'] } />
@@ -22,7 +41,7 @@ const App = () => {
         Wow, JSX is neat ! ! !
       </p>
 
-      <StudentList />
+      <StudentList students={ students } />
       </>
   );
 }
